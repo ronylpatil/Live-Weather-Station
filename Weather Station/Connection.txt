@@ -1,0 +1,31 @@
+DHT11 : 
+	+ -> VIN(5.5V) of ESP32.	
+	- -> GND of ESP32.
+	S -> D5 of ESP32.
+
+BMP280 :
+	VCC -> VIN(5V) of ESP32.
+	GND -> GND of ESP32.
+	SCL -> D22 of ESP32.
+	SDA -> D21 of ESP32.
+
+OLED Display :
+	VCC -> 3.3V of ESP32.
+	GND -> GND of ESP32.
+	SCL -> D32 of ESP32.
+	SDA -> D33 of ESP32.	 
+
+MQ135 Gas Sensor : 
+        VCC -> 3.3V of ESP32.
+	GND -> GND of ESP32.
+	A0 -> VN of ESP32.
+
+LDR : 
+    One End to D35 and connect resistor to VIN.
+    Another end to GND. 	
+
+Capacitor :
+	+ -> Connect to EN(15) of ESP32.
+	- (Black Strip side indicate's -ive terminal) -> Connect to GND.
+
+
